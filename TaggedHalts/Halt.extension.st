@@ -9,3 +9,8 @@ Halt class >> disable: aHaltTag [
 Halt class >> enable: aHaltTag [
 	TaggedHalt enable: aHaltTag
 ]
+
+{ #category : #'*TaggedHalts' }
+Halt class >> resetTags [
+	TaggedHalt resetTags
+]
